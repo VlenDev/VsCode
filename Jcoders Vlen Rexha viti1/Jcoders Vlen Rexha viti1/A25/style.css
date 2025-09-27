@@ -1,0 +1,14 @@
+.linear{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(60deg ,var(--Vlen) ,yellow);
+}
+.radiant{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(var(--Vlen) , yellow);
+    margin-top: 20px;
+}
+:root{
+    --Vlen: red;
+}

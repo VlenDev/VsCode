@@ -1,0 +1,352 @@
+p{
+    color: gray;
+}
+*{
+    font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.profile_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+}
+.profile >*{
+    margin-right: 20px;
+}
+.search{
+    display: flex;
+}
+.bell{
+    display: flex;
+}
+.netflix > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.spotify > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.netflix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.other_net_fam_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -30px;
+}
+.white_text{
+    color: white;
+}
+.done{
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}   
+.first_text{
+    font-size: smaller;
+    margin-left: 20px;
+}
+.date_first{
+    margin-top: -20px;
+}   
+.net_fam_h3{
+    display: flex;
+    flex-direction: row;
+}
+.price{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: red;
+    align-self: flex-end;
+}
+.spotify{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 5px;
+    width: 400px;
+}
+.spot_duo_h3{
+    display: flex;
+    flex-direction: row;
+}
+.other_spot_duo_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -30px;
+}
+.white_text{
+    color: white;
+}
+.done{
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.second_text{
+    font-size: smaller;
+    margin-left: 20px;
+}
+.date_second{
+   margin-top: -20px; 
+   font-size: medium;
+   margin-left: -20px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+.christine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.christine_h3{
+    display: flex;
+    flex-direction: row;
+}
+.other_christine_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -30px;
+}
+.christine > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.christine_text{
+    font-size: smaller;
+    margin-left: 20px;
+}
+.levi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.levi_h3{
+    display: flex;
+    flex-direction: row;
+}
+.other_levi_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -30px;
+}
+.levi > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.levi_text{
+    font-size: smaller;
+    margin-left: 20px;
+}
+.done_yellow{
+    border: 2px solid yellow;
+    color: yellow;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.green_price{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: greenyellow;
+    align-self: flex-end;
+}
+.bkt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.bkt_h3{
+    display: flex;
+    flex-direction: row;
+}
+.other_bkt_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -30px;
+}
+.bkt > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.bkt_text{
+    font-size: smaller;
+    margin-left: 20px;
+}
+.price_bkt{
+    margin-left: 120px;
+    margin-top: 20px;
+    color: red;
+    align-self: flex-end;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.account_balance_text{
+    margin-left: 70px;
+    margin-top: 70px;
+    flex-direction: row;
+    border: solid #0B69FE;
+    border-radius: 15px;
+    height: 100px;
+    width: 400px;
+    background-color: #0B69FE;
+    padding: 10px;
+}
+.other{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.expenses{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+    color: white;
+}
+.incomes{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.ex_in{
+    margin-left: 300px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+}
+.in_text{
+    font-size: x-small;
+}
+.ex_text{
+    font-size: x-small;
+}
+.account_balance_text{
+    color: white;
+}
+.card_info{
+    color: black;
+    margin-left: 80px;
+    font-size: smaller;
+    line-height: 0.5;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.type_of_card{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.status{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.card_info_currency{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    height: 150px;
+    width: 450px;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.currency{
+    margin-left: 90px;
+}
+.board > img{
+    width: 298px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 70px;
+}

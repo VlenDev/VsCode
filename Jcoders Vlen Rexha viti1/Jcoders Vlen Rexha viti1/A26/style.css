@@ -1,0 +1,16 @@
+.img1{
+    width: 400px;
+    clip-path: circle(40% at 0 0);
+}
+.img2{
+    width: 400px;
+    clip-path: inset(50px round 50px 50px 50px);
+}
+.img3{
+    width: 400px;
+    clip-path: ellipse(150px 300px);
+}
+.img4{
+    width: 400px;
+    clip-path: polygon(50% 0 , 100% 50% , )
+}

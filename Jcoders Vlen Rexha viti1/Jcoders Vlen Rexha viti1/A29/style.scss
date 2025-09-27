@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    background-color: darkcyan;
+    padding: 20px;
+    width: 1000px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+
+    grid-gap: 20px;
+    
+}
+
+.item1 {
+    background-color: lightblue;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+.item2 {
+    background-color: lightcoral;
+}
+
+.item3 {
+    background-color: lightcyan;
+}
+
+.item4 {
+    background-color: lightgoldenrodyellow;
+}
+
+.item5 {
+    background-color: lightgreen;
+}
+
+.item6 {
+    background-color: lightgrey;
+}
+
+.item7 {
+    background-color: lightpink;
+}
+
+.item8 {
+    background-color: lightseagreen;
+}
+
+.item9 {
+    background-color: lightskyblue;
+}
+
+.item10 {
+    background-color: lightslategray;
+}

@@ -1,0 +1,67 @@
+h1{
+    color: #0A0A0A;
+}
+body{
+    background-color: #0A0A0A;
+    color: #d7d9de;
+    font-family: 'Kanit', sans-serif;
+}
+.login_form{
+    width: 500px;
+    height: 361px;
+    background-color: #d7d9de;
+    margin-left: 50vh;
+    margin-top: 25vh;
+    border-radius: 15px;
+}
+.H1{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.email{
+    background-color: #0A0A0A;
+    border: none;
+    color: #d7d9de;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 370px;
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.password{
+    background-color: #0A0A0A;
+    border: none;
+    color: #d7d9de;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 370px;
+    border-radius: 5px;
+}
+.button{
+    width: 500px;
+    height: 70px;
+    margin-top: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0A0A0A;
+    font-size: 150%;
+    color: #d7d9de;
+    font-family: 'Kanit', sans-serif;
+    color: #d7d9de;
+}
+a{
+    color: #d7d9de;
+    width: 500px;
+    height: 70px;
+}

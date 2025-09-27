@@ -1,0 +1,27 @@
+.red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    transition: transform 2s;
+}
+.green{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    transition: transform 2s;
+}
+.yellow{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    transition: transform 2s;
+}
+.green:hover{
+    transform: rotate(10rad);
+}
+.yellow:hover{
+    transform: scale(2.5);
+}
+.red:hover{
+    transform: translate(400px);
+}

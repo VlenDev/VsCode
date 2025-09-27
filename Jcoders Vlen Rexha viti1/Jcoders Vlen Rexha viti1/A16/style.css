@@ -1,0 +1,85 @@
+.number{
+    align-items: center;
+    display: flex;
+    height: 35px;
+    background-color: #004BA8;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.email{
+    align-items: center;
+    display: flex;
+    height: 35px;
+    background-color: #004BA8;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.location{
+    align-items: center;
+    display: flex;
+    height: 35px;
+    background-color: #004BA8;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 10px; 
+}
+
+.facebook{
+    background-color: #004BA8;
+    border-radius: 100%;
+}
+
+.twitter{
+    background-color: #004BA8;
+    border-radius: 100%;
+}
+
+.instagram{
+    background-color: #004BA8;
+    border-radius: 100%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+body{
+    background-color: #4A525A;
+}
+
+.first{
+    background-color: #449DD1;
+    width: 1000px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 125px;
+}
+
+*{
+    font-family: 'Merriweather', serif;
+font-family: 'Roboto Mono', monospace;
+font-weight: 700;
+}
+
+.fill_a_form{
+    width: 150px;
+    margin-left: 50px;
+}
+.get_quote{
+    margin-left: 25px;
+}

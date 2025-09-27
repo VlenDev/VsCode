@@ -1,0 +1,126 @@
+$darkblue:#03045E ;
+$lightblue:#0077B6 ;
+$textcolor:#00B4D8 ;
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.primary_bar{
+    width: 300px;
+    height: 896px;
+    background-color: $lightblue;
+    margin: 0;
+    display: block;
+    border: 2px solid black;
+}
+.primary_bar_text{
+    margin-left: 30px;
+    background-color: #03045E;
+    color: #00B4D8;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.logo{
+    border-radius: 15px;
+    padding: 10px;
+    width: 197;
+    height: 57;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+.bars{
+    display: flex;
+    flex-direction: row;
+}
+
+.gender {
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+    background-color: $darkblue;
+    padding: 10px 30px;
+    width: 225px;
+    border-radius: 15px;
+
+    .gender-woman {
+        background-color: salmon;
+        padding: 5px 25px;
+        border-radius: 12px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .gender-man {
+        display: flex;
+        align-items: center;
+        color: #00B4D8;
+    }
+}
+.nav_bar{
+    background-color: $lightblue;
+    height: 100px;
+    border: 2px solid black;
+    border-left: #E9E3E6;
+    width: 1500px;
+}
+.main{
+    width: 1240px;
+    height: 800px;
+    margin-left: 200px;
+    margin-top: -800px;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 600px, 600px, 320px;
+    grid-template-columns: 400px, 400px;
+}
+.fifty_percent{
+    color: #00B4D8;
+    background-color: #03045E;
+    border: solid black 2px;
+    width: 600px;
+    height: 200px;
+    align-content: center;
+    display: block;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+.thirty_percent{
+    color: #00B4D8;
+    background-color: #03045E;
+    border: solid black 2px;
+    border-top: #03045E;
+    width: 600px;
+    height: 200px;
+    align-content: center;
+    display: block;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+.billie{
+    margin-left: 350px;
+    margin-top: -45px;
+    border-radius: 15px;
+}
+.artemis{
+    width: 320px;
+    height: 400px;
+    background-color: #03045E;
+    border: solid black 2px;
+    margin-left: 850px;
+    color: #00B4D8;
+    padding: 15px;
+}
+.blazer_vintage{
+    width: 320px;
+    height: 400px;
+    background-color: #03045E;
+    border: solid black 2px;
+    margin-left: 850px;
+    color: #00B4D8;
+    padding: 15px;
+}

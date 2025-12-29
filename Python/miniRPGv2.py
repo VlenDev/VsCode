@@ -18,10 +18,11 @@ class Enemy:
         if player.ifWeaponEquipped and self.health > 0:
             self.health = self.health - player.weapon.damage
             print(f"{player.name}! you did {player.weapon.damage} damage to the {self.name}!")
+            self.health = self.health - player.weapon.damage
+            print(f"{self.name} has done {self.AtackDamage} damage! -{self.AtackDamage}health")
             player.health = player.health - self.AtackDamage
         elif self.health <= 0:
             print(f"You have eliminated the {self.name}!")
-            print(f"{self.name} has done {self.AtackDamage} damage! -{self.AtackDamage}health")
         elif player.ifWeaponEquipped == False and self.health > 0:
             print("equip a weapon to attack!")
         elif player.ifWeaponEquiped and self.health < 0 and self.Dead == False:
@@ -51,7 +52,7 @@ class Weapon(Item):
             print("You already have a weapon equipped!")
         else:
             print("You can't equip that!")
-    
+
 class Inventory:
     def __init__(self, owner):
         self.owner = owner
@@ -75,6 +76,18 @@ player health: {self.owner.health}"""
             if equipped_weapon:
                 inventory_str += f"\nequipped weapon: {equipped_weapon[0]}"
         return inventory_str
+
+class food(Item):
+    def __init__(self, name: str, value: int, effect: int):
+        self.name = name
+        self.value = value
+        self.effect = effect
+    
+    def eat(self, Item):
+        if Item == food:
+            print(f"you have eaten an {self.name}!")
+            Inventory.RemoveItem(self)
+            player.health += self.value
 
 Vlen = player("Vlen", 100)
 VlenInventory = Inventory(Vlen)
